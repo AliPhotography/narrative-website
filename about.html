@@ -20,7 +20,6 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
             <div class="container">
-                <a class="navbar-brand" href="index.html"><img src="assets/img/navbar-logo.svg" alt="..." /></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i class="fas fa-bars ms-1"></i>
@@ -39,30 +38,46 @@
         <!-- Masthead-->
         <header class="masthead">
             <div class="container">
-                <div class="masthead-subheading">What is</div>
-                <div class="masthead-heading text-uppercase">Rome?</div>
+                <br>
+                
+                <div class="masthead-subheading">What is <br><div class="masthead-heading text-uppercase">Rome?</div></div>
+
             </div>
         </header>
         <!-- Services-->
         <section class="page-section" id="services">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">In-Page Navigation</h2>               
+                    <h2 class="section-heading text-uppercase">Navigation</h2>               
                     <h3 class="section-subheading text-muted">Navigate through this page here:</h3>
                 </div>
                 <div class="row text-center">
-                    <div class="col-md-4">
-                        <a class="btn btn-primary btn-xl text-uppercase" href="#portfolio">Introduction</a>              
+                    <div class="col-md-4 p-2">
+                        <a class="btn btn-success btn-xl text-uppercase" href="#portfolio">Introduction</a>              
                     </div>
-                    <div class="col-md-4">
-                         <a class="btn btn-primary btn-xl text-uppercase" href="#about">Timeline</a> 
+                    <div class="col-md-4 p-2">
+                         <a class="btn btn-light btn-xl text-uppercase" href="#about">Timeline</a> 
                     </div>
-                    <div class="col-md-4">                     
-                        <a class="btn btn-primary btn-xl text-uppercase" href="#team">Conclusion</a> 
+                    <div class="col-md-4 p-2">                     
+                        <a class="btn btn-danger btn-xl text-uppercase" href="#team">Conclusion</a> 
                     </div>
                 </div>
             </div>
         </section>
+        <style>
+    header.masthead {
+    padding-top: 10.5rem;
+    padding-bottom: 6rem;
+    text-align: center;
+    color: #fff;
+    background-image: url("../assets/img/backgrounds/about.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    height: 582px;
+}
+        </style>
         <!-- Portfolio Grid-->
         <section class="page-section bg-light" id="portfolio">
             <div class="container">
@@ -73,7 +88,16 @@
                             <h2 class="text-uppercase">Introduction</h2>
                             <p class="item-intro text-muted">What really is Rome?</p>
                             <!--<img class="img-fluid d-block mx-auto" src="assets/img/portfolio/1.jpg" alt="..." /> -->
-                            <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                            <p>Rome is a city with a rich historical background and has impacted Europe positvely, from languages to the legal system. </p>
+                            <br>
+                            <br>
+
+                            <h4>Language</h4>
+                            <p>The language the Romans spoke is called "Latin". Latin became the foundation of the "Romance" languages such as Italian, French, Spanish, Portuguese, and Romanian. The Latin alphabet is widely used in Europe and has become the standard writing system for numerous languages</p>
+                            <br>
+                            <br>
+                            <h4>Legal System</h4>
+                            <p>The development of the "Roman Law" has had an significant long lasting effect on Europe. The principles of the Roman Law such as the concept of 'Innocent until proven guilty' and the importance of legal precedence formed the groundwork for majority of legal systems in Europe.</p>
                             <!---
                             <ul class="list-inline">
                                 <li>
@@ -95,70 +119,51 @@
         <section class="page-section" id="about">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Timeline</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h2 class="section-heading text-uppercase">History of Rome</h2>
+                    <h3 class="section-subheading text-muted">Major periods in Roman history</h3>
                 </div>
                 <ul class="timeline">
                     <li>
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/1.jpg" alt="..." /></div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>2009-2011</h4>
-                                <h4 class="subheading">Subheading</h4>
+                        <div class="container">
+                            <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/Kingdom.jpg" alt="..." /></div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>753 BCE - 509 BCE </h4>
+                                    <h4 class="subheading">Roman Kingdom</h4>
+                                </div>
+                                <div class="timeline-body"><p class="text-muted">Founded by Romulus and Remus in 753 BC<br><br>characterized by the rule of monarchs, including the legendary kings and the establishment of early Roman institutions.</p></div>
                             </div>
-                            <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
                         </div>
                     </li>
                     <li class="timeline-inverted">
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/2.jpg" alt="..." /></div>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/republic.jpg" alt="..." /></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
-                                <h4>March 2011</h4>
-                                <h4 class="subheading">Subheading</h4>
+                                <h4>509 BCE - 27 BCE</h4>
+                                <h4 class="subheading">Roman Republic</h4>
                             </div>
-                            <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+                            <div class="timeline-body"><p class="text-muted">Established after overthrowing the previous king.<br><br>Expanded its territory through conquest, featuring The Punic Wars against Carthage.<br><br>Key figures such as Julius Caesar, Pompey and Crassus played big roles in Roman politics and formed the "First Triumvirate"in 60 BC.<br><br>Julius Caesar crosses the Rubicon in 49 BC which led to a civil war, resulting in the end of the Republic</p></div>
                         </div>
                     </li>
                     <li>
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/3.jpg" alt="..." /></div>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/Empire.jpg" alt="..." /></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
-                                <h4>December 2015</h4>
-                                <h4 class="subheading">Subheading</h4>
+                                <h4>27 BCE - 476 CE</h4>
+                                <h4 class="subheading">Roman Empire</h4>
                             </div>
-                            <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+                            <div class="timeline-body"><p class="text-muted">Augustus became the first Roman Emperor after defeating Mark Antony in 31 BCE.<br><br>Peace across Rome emerged called the "Pax Romana" meaning Roman Peace.<br><br>Reaches its greatest territorial extend under Emperor Trajan.<br><br>Western Roman Empire started to decline due to economic and military difficulties.<br><br>Romulus Agustulus is dethroned in 476 CE which marked the fall of the Western Roman Empire</p></div>
                         </div>
                     </li>
                     <li class="timeline-inverted">
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/4.jpg" alt="..." /></div>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/byzantine.jpg" alt="..." /></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
-                                <h4>July 2020</h4>
-                                <h4 class="subheading">Subheading</h4>
+                                <h4>330 CE - 1453 CE</h4>
+                                <h4 class="subheading">Byzantine Empire (Eastern Roman Empire)</h4>
                             </div>
-                            <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+                            <div class="timeline-body"><p class="text-muted">Continued nearly a thousand years after the collapse of the Western Roman Empire.<br><br>Faced challenges such as invasions and conflicsts with the Persian Empire (later known as the Ottoman Turks).<br><br>Ended up falling to the Ottoman Turks in 1453, marking the end of the Byzantine Empire</p></div>
                         </div>
-                    </li>
-                    <li>
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/4.jpg" alt="..." /></div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>July 2020</h4>
-                                <h4 class="subheading">Subheading</h4>
-                            </div>
-                            <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
-                        </div>
-                    </li>
-                    <li class="timeline-inverted">
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/4.jpg" alt="..." /></div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>July 2020</h4>
-                                <h4 class="subheading">Subheading</h4>
-                            </div>
-                            <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
-                        </div>
-                    </li>
                 </ul>
             </div>
         </section>
@@ -166,34 +171,38 @@
         <section class="page-section bg-light" id="team">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Team</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h2 class="section-heading text-uppercase">Present Day Rome</h2>
+                    <h3 class="section-subheading text-muted">What is Rome like now?</h3>
                 </div>
                 <div class="row">
                     <div class="col-lg-4">
                         <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="assets/img/team/1.jpg" alt="..." />
-                            <h4>Title</h4>
-                            <p class="text-muted">Text</p>
+                            <img class="mx-auto" src="assets/img/conclusion/Road.jpg" style="width: 300px;" alt="..." />
+                            <h4>Streets</h4>
+                            <p class="text-muted">The streets of Rome is compact and have narrow alleys and preserve their rich history with many factors such as the streets being paved in Cobblestone.</p>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="assets/img/team/2.jpg" alt="..." />
-                            <h4>Title</h4>
-                            <p class="text-muted">Text</p>
+                            <img class="mx-auto" src="assets/img/conclusion/Scenery.jpg" style="width: 300px;" alt="..." />
+                            <h4>Scenery</h4>
+                            <p class="text-muted">Rome is built on several hills and is sometimes referred to as the "City of the seven hills". These hills provided massive help in the development of early Rome and in todays era, they provide people with breath-taking scenery.</p>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="assets/img/team/3.jpg" alt="..." />
-                            <h4>Title</h4>
-                            <p class="text-muted">Text</p>
+                            <img class="mx-auto" src="assets/img/conclusion/streets.jpg"style="width: 300px;"  alt="..." />
+                            <h4>Nature</h4>
+                            <p class="text-muted">Due to Rome being Mediterranian, the various plants here thrive in this environment. Rome is famous for their rich historical background, however the natural side of it contributes to the aesthetics and the overall character of the city.</p>
                         </div>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-8 mx-auto text-center"><p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p></div>
+                    <div class="text-center">
+                        <h5 class="section-heading text-uppercase">Summary</h5>
+
+                    </div>
+                    <div class="col-lg-8 mx-auto text-center"><p class="large text-muted">Rome is a city with incredibly rich history that played a crucial role in Rome's unique charm. the streets of Rome has a mixture of historical glamour and modern vibrancy, giving the feeling of a timeless crossroad where the history meets the present</p></div>
                 </div>
             </div>
         </section>
