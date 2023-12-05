@@ -52,3 +52,37 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+document.addEventListener("DOMContentLoaded", function() {
+    const elementsToFade = document.querySelectorAll(".fade-in");
+
+    function fadeInElements() {
+        elementsToFade.forEach(function(element) {
+            const bounding = element.getBoundingClientRect();
+            if (bounding.top < window.innerHeight && bounding.bottom >= 0) {
+                element.classList.add("visible");
+            }
+        });
+    }
+
+    document.addEventListener("scroll", fadeInElements);
+    window.addEventListener("resize", fadeInElements);
+
+    fadeInElements(); // Initial check in case elements are already in view
+});
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    let slides = document.getElementsByClassName("slide");
+    for (let i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {
+        slideIndex = 1;
+    }
+    slides[slideIndex - 1].style.display = "block";
+    setTimeout(showSlides, 2000); // Change slide every 2 seconds
+}
+
+

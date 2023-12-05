@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Agency - Start Bootstrap Theme</title>
+        <title>What is Rome?</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
@@ -20,6 +20,7 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
             <div class="container">
+                <a class="navbar-brand" href="index.html"><img src="assets/img/navbar-logo.svg" alt="..." /></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i class="fas fa-bars ms-1"></i>
@@ -27,10 +28,10 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
                         <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                        <li class="nav-item"><a class="nav-link active" href="about.html">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
                         <li class="nav-item"><a class="nav-link" href="eatery.html">Eatery</a></li>
                         <li class="nav-item"><a class="nav-link" href="visit.html">Visit</a></li>
-                        <li class="nav-item"><a class="nav-link" href="culture.html">Arts & culture</a></li>
+                        <li class="nav-item"><a class="nav-link" href="culture.html">Arts & Events</a></li>
                     </ul>
                 </div>
             </div>
@@ -40,26 +41,26 @@
             <div class="container">
                 <br>
                 
-                <div class="masthead-subheading">What is <br><div class="masthead-heading text-uppercase">Rome?</div></div>
+                <div class="masthead-subheading text-uppercase">What is <br><div class="masthead-heading text-uppercase">Rome?</div></div>
 
             </div>
         </header>
         <!-- Services-->
-        <section class="page-section" id="services">
+        <section class="page-section bg-dark bg-opacity-10 fade-in" id="services">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Navigation</h2>               
+                    <h2 class="section-heading text-uppercase">Navigation</h2>
                     <h3 class="section-subheading text-muted">Navigate through this page here:</h3>
                 </div>
                 <div class="row text-center">
                     <div class="col-md-4 p-2">
-                        <a class="btn btn-success btn-xl text-uppercase" href="#portfolio">Introduction</a>              
+                        <a class="btn btn-success btn-xl text-uppercase" href="#food">Introduction</a>
                     </div>
                     <div class="col-md-4 p-2">
-                         <a class="btn btn-light btn-xl text-uppercase" href="#about">Timeline</a> 
+                        <a class="btn btn-light btn-xl text-uppercase border border-secondary" href="#about">Timeline</a>
                     </div>
-                    <div class="col-md-4 p-2">                     
-                        <a class="btn btn-danger btn-xl text-uppercase" href="#team">Conclusion</a> 
+                    <div class="col-md-4 p-2">
+                        <a class="btn btn-danger btn-xl text-uppercase" href="#team">Conclusion</a>
                     </div>
                 </div>
             </div>
@@ -70,34 +71,38 @@
     padding-bottom: 6rem;
     text-align: center;
     color: #fff;
-    background-image: url("../assets/img/backgrounds/about.jpg");
+    background-image: url("../assets/img/backgrounds/aboutv2.jpg");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
     background-size: cover;
     height: 582px;
-}
+    }
         </style>
-        <!-- Portfolio Grid-->
-        <section class="page-section bg-light" id="portfolio">
+        <!-- introduction Grid-->
+        <section class="page-section" id="food">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-8">
                         <div class="modal-body">
                             <!-- Project details-->
-                            <h2 class="text-uppercase">Introduction</h2>
-                            <p class="item-intro text-muted">What really is Rome?</p>
-                            <!--<img class="img-fluid d-block mx-auto" src="assets/img/portfolio/1.jpg" alt="..." /> -->
-                            <p>Rome is a city with a rich historical background and has impacted Europe positvely, from languages to the legal system. </p>
+                            <div class="fade-in">
+                                <h2 class="text-uppercase">Introduction</h2>
+                                <p class="item-intro text-muted">What really is Rome?</p>
+                                <p>Rome is a city with a rich historical background and has impacted Europe positvely, from languages to the legal system. </p>
+                            </div>
                             <br>
                             <br>
-
+                            <div class="fade-in">
                             <h4>Language</h4>
                             <p>The language the Romans spoke is called "Latin". Latin became the foundation of the "Romance" languages such as Italian, French, Spanish, Portuguese, and Romanian. The Latin alphabet is widely used in Europe and has become the standard writing system for numerous languages</p>
+                            </div>
                             <br>
                             <br>
+                            <div class="fade-in">
                             <h4>Legal System</h4>
                             <p>The development of the "Roman Law" has had an significant long lasting effect on Europe. The principles of the Roman Law such as the concept of 'Innocent until proven guilty' and the importance of legal precedence formed the groundwork for majority of legal systems in Europe.</p>
+                            </div>
                             <!---
                             <ul class="list-inline">
                                 <li>
@@ -118,15 +123,15 @@
         <!-- About-->
         <section class="page-section" id="about">
             <div class="container">
-                <div class="text-center">
+                <div class="text-center fade-in">
                     <h2 class="section-heading text-uppercase">History of Rome</h2>
                     <h3 class="section-subheading text-muted">Major periods in Roman history</h3>
                 </div>
                 <ul class="timeline">
                     <li>
-                        <div class="container">
+                        <div class="container fade-in">
                             <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/Kingdom.jpg" alt="..." /></div>
-                            <div class="timeline-panel">
+                            <div class="timeline-panel fade-in">
                                 <div class="timeline-heading">
                                     <h4>753 BCE - 509 BCE </h4>
                                     <h4 class="subheading">Roman Kingdom</h4>
@@ -136,8 +141,8 @@
                         </div>
                     </li>
                     <li class="timeline-inverted">
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/republic.jpg" alt="..." /></div>
-                        <div class="timeline-panel">
+                        <div class="timeline-image fade-in"><img class="rounded-circle img-fluid" src="assets/img/about/republic.jpg" alt="..." /></div>
+                        <div class="timeline-panel fade-in">
                             <div class="timeline-heading">
                                 <h4>509 BCE - 27 BCE</h4>
                                 <h4 class="subheading">Roman Republic</h4>
@@ -146,8 +151,8 @@
                         </div>
                     </li>
                     <li>
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/Empire.jpg" alt="..." /></div>
-                        <div class="timeline-panel">
+                        <div class="timeline-image fade-in"><img class="rounded-circle img-fluid" src="assets/img/about/Empire.jpg" alt="..." /></div>
+                        <div class="timeline-panel fade-in">
                             <div class="timeline-heading">
                                 <h4>27 BCE - 476 CE</h4>
                                 <h4 class="subheading">Roman Empire</h4>
@@ -156,20 +161,20 @@
                         </div>
                     </li>
                     <li class="timeline-inverted">
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/byzantine.jpg" alt="..." /></div>
-                        <div class="timeline-panel">
+                        <div class="timeline-image fade-in"><img class="rounded-circle img-fluid" src="assets/img/about/byzantine.jpg" alt="..." /></div>
+                        <div class="timeline-panel fade-in">
                             <div class="timeline-heading">
                                 <h4>330 CE - 1453 CE</h4>
                                 <h4 class="subheading">Byzantine Empire (Eastern Roman Empire)</h4>
                             </div>
-                            <div class="timeline-body"><p class="text-muted">Continued nearly a thousand years after the collapse of the Western Roman Empire.<br><br>Faced challenges such as invasions and conflicsts with the Persian Empire (later known as the Ottoman Turks).<br><br>Ended up falling to the Ottoman Turks in 1453, marking the end of the Byzantine Empire</p></div>
+                            <div class="timeline-body"><p class="text-muted">Continued nearly a thousand years after the collapse of the Western Roman Empire.<br><br>Faced challenges such as invasions and conflicts with the Persian Empire (later known as the Ottoman Turks).<br><br>Ended up falling to the Ottoman Turks in 1453, marking the end of the Byzantine Empire</p></div>
                         </div>
                 </ul>
             </div>
         </section>
         <!-- Team-->
         <section class="page-section bg-light" id="team">
-            <div class="container">
+            <div class="container fade-in">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Present Day Rome</h2>
                     <h3 class="section-subheading text-muted">What is Rome like now?</h3>
@@ -186,14 +191,14 @@
                         <div class="team-member">
                             <img class="mx-auto" src="assets/img/conclusion/Scenery.jpg" style="width: 300px;" alt="..." />
                             <h4>Scenery</h4>
-                            <p class="text-muted">Rome is built on several hills and is sometimes referred to as the "City of the seven hills". These hills provided massive help in the development of early Rome and in todays era, they provide people with breath-taking scenery.</p>
+                            <p class="text-muted">Rome is sometimes referred to as the "City of the seven hills" due to the landscape it was built on. These hills provided massive help in the development of early Rome and today, they provide people with breath-taking scenery.</p>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="team-member">
                             <img class="mx-auto" src="assets/img/conclusion/streets.jpg"style="width: 300px;"  alt="..." />
-                            <h4>Nature</h4>
-                            <p class="text-muted">Due to Rome being Mediterranian, the various plants here thrive in this environment. Rome is famous for their rich historical background, however the natural side of it contributes to the aesthetics and the overall character of the city.</p>
+                            <h4 class="">Nature</h4>
+                            <p class="text-muted">Due to Rome being Mediterranean, the various plants here thrive in this environment. Rome is famous for their rich historical background, however the natural side of it contributes to the aesthetics and the overall character of the city.</p>
                         </div>
                     </div>
                 </div>
@@ -202,12 +207,12 @@
                         <h5 class="section-heading text-uppercase">Summary</h5>
 
                     </div>
-                    <div class="col-lg-8 mx-auto text-center"><p class="large text-muted">Rome is a city with incredibly rich history that played a crucial role in Rome's unique charm. the streets of Rome has a mixture of historical glamour and modern vibrancy, giving the feeling of a timeless crossroad where the history meets the present</p></div>
+                    <div class="col-lg-8 mx-auto text-center"><p class="large text-muted">Rome is a city with incredibly rich history that played a crucial role in its unique charm. The streets of Rome has a mixture of historical glamour and modern vibrancy, giving the feeling of a timeless crossroad where history meets the present</p></div>
                 </div>
             </div>
         </section>
 
-        <!-- Footer-
+        <!-- Footer-->
         <footer class="footer py-4">
             <div class="container">
                 <div class="row align-items-center">
@@ -224,218 +229,6 @@
                 </div>
             </div>
         </footer>
-        -->
-        <!-- Portfolio Modals-->
-        <!-- Portfolio item 1 modal popup-->
-        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <div class="modal-body">
-                                    <!-- Project details-->
-                                    <h2 class="text-uppercase">Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/1.jpg" alt="..." />
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                    <ul class="list-inline">
-                                        <li>
-                                            <strong>Client:</strong>
-                                            Threads
-                                        </li>
-                                        <li>
-                                            <strong>Category:</strong>
-                                            Illustration
-                                        </li>
-                                    </ul>
-                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                                        <i class="fas fa-xmark me-1"></i>
-                                        Close Project
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Portfolio item 2 modal popup-->
-        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <div class="modal-body">
-                                    <!-- Project details-->
-                                    <h2 class="text-uppercase">Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/2.jpg" alt="..." />
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                    <ul class="list-inline">
-                                        <li>
-                                            <strong>Client:</strong>
-                                            Explore
-                                        </li>
-                                        <li>
-                                            <strong>Category:</strong>
-                                            Graphic Design
-                                        </li>
-                                    </ul>
-                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                                        <i class="fas fa-xmark me-1"></i>
-                                        Close Project
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Portfolio item 3 modal popup-->
-        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <div class="modal-body">
-                                    <!-- Project details-->
-                                    <h2 class="text-uppercase">Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/3.jpg" alt="..." />
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                    <ul class="list-inline">
-                                        <li>
-                                            <strong>Client:</strong>
-                                            Finish
-                                        </li>
-                                        <li>
-                                            <strong>Category:</strong>
-                                            Identity
-                                        </li>
-                                    </ul>
-                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                                        <i class="fas fa-xmark me-1"></i>
-                                        Close Project
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Portfolio item 4 modal popup-->
-        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <div class="modal-body">
-                                    <!-- Project details-->
-                                    <h2 class="text-uppercase">Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/4.jpg" alt="..." />
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                    <ul class="list-inline">
-                                        <li>
-                                            <strong>Client:</strong>
-                                            Lines
-                                        </li>
-                                        <li>
-                                            <strong>Category:</strong>
-                                            Branding
-                                        </li>
-                                    </ul>
-                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                                        <i class="fas fa-xmark me-1"></i>
-                                        Close Project
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Portfolio item 5 modal popup-->
-        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <div class="modal-body">
-                                    <!-- Project details-->
-                                    <h2 class="text-uppercase">Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/5.jpg" alt="..." />
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                    <ul class="list-inline">
-                                        <li>
-                                            <strong>Client:</strong>
-                                            Southwest
-                                        </li>
-                                        <li>
-                                            <strong>Category:</strong>
-                                            Website Design
-                                        </li>
-                                    </ul>
-                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                                        <i class="fas fa-xmark me-1"></i>
-                                        Close Project
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Portfolio item 6 modal popup-->
-        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <div class="modal-body">
-                                    <!-- Project details-->
-                                    <h2 class="text-uppercase">Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/6.jpg" alt="..." />
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                    <ul class="list-inline">
-                                        <li>
-                                            <strong>Client:</strong>
-                                            Window
-                                        </li>
-                                        <li>
-                                            <strong>Category:</strong>
-                                            Photography
-                                        </li>
-                                    </ul>
-                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                                        <i class="fas fa-xmark me-1"></i>
-                                        Close Project
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
