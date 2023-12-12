@@ -16,7 +16,7 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
     </head>
-    <body id="page-top">
+<body id="page-top">
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
             <div class="container">
@@ -51,19 +51,69 @@
         </style>
         <!-- Masthead-->
         <header class="masthead">
-            <div class="container">
+            <div class="">
                 <br>
                 
                 <div class="masthead-subheading text-uppercase">Welcome to <br><div class="masthead-heading text-uppercase">Rome</div></div>
 
             </div>
         </header>
-        <div class="container pt-5">
-            <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d190028.3558879646!2d12.370843215791597!3d41.910208300954054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f6196f9928ebb%3A0xb90f770693656e38!2sRome%2C%20Metropolitan%20City%20of%20Rome%20Capital%2C%20Italy!5e0!3m2!1sen!2suk!4v1699963346679!5m2!1sen!2suk" width="1500" height="455" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Map and Video Example</title>
+            <style>
+                
+                body {
+                    box-sizing: border-box;
+                    font-family: Arial, sans-serif;
+                }
+        
+                h2 {
+                    text-align: center;
+                }
+        
+                .container {
+                    display: flex;
+                    justify-content: space-around;
+                    padding-right: 99px;
+                    flex-wrap: wrap;
+                    
+                }
+        
+                .map-container,
+                .video-container {
+                    flex: 1;
+                    max-width: 400px;
+                    margin: 100px;
+                }
+        
+                .map-container iframe,
+                .video-container iframe {
+                    width: 600px;
+                    height: 500px;
+                    border: 0;
+                }
+            </style>
+        </head>
+        <body>       
+            <div class="container">
+                <div class="map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d190028.3558879646!2d12.370843215791597!3d41.910208300954054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f6196f9928ebb%3A0xb90f770693656e38!2sRome%2C%20Metropolitan%20City%20of%20Rome%20Capital%2C%20Italy!5e0!3m2!1sen!2suk!4v1699963346679!5m2!1sen!2suk" width="370" height="755" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+        
+                <div class="video-container">
+                    <iframe src="https://www.youtube.com/embed/5DcA4BePBdA" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </body>
+        </html>
+        
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
-    </body>
+</body>
 </html>

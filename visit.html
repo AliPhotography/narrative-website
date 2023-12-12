@@ -42,51 +42,108 @@
                 <div class="masthead-heading text-uppercase">Landmarks</div>
             </div>
         </header>
-        <style>
-            header.masthead {
-                padding-top: 10.5rem;
-            padding-bottom: 6rem;
-            text-align: center;
-            color: #fff;
-            background-image: url("assets/img/backgrounds/visitv2.jpg");
-            background-repeat: no-repeat;
-            background-attachment: scroll;
-            background-position: center center;
-            background-size: cover;
-            height: 727px;
-            }
-        </style>
-<!---
+<style>
+header.masthead 
+{
+    padding-top: 10.5rem;
+    padding-bottom: 6rem;
+    text-align: center;
+    color: #fff;
+    background-image: url("assets/img/backgrounds/visitv2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    height: 727px;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+
+.slideshow-container {
+    width: 85vmin;
+    position: ab;
+    margin: auto;
+    overflow: hidden;
+    display: flex;
+    animation: slide 20s  infinite;
+}
+
+img {
+    width: 100%;
+    max-height: 100%; 
+}
+
+@keyframes slide
+{
+    0%
+    {
+        transform: translateX(0%);
+    }
+    20% /* first image */
+    {
+        transform: translateX(0%);
+    }
+    25%
+    {
+        transform: translateX(-100%);
+    }
+    40% /* second image */
+    {
+        transform: translateX(-100%);
+    }
+    45%
+    {
+        transform: translateX(-200%);
+    }
+    60% /* third image */
+    {
+        transform: translateX(-200%);
+    }
+    65%
+    {
+        transform: translateX(-300%);
+    }
+    80% /* fourth image */
+    {
+        transform: translateX(-300%);
+    }
+    85%
+    {
+        transform: translateX(-400%);
+    }
+    100% /* fifth image */
+    {
+        transform: translateX(-400%);
+    }
+
+
+}
+
+
+
+
+</style>
+
 <body>
-    <!---
-    <div class="slideshow-container">
-        <div class="slide fade">
-            <img src="assets/img/slideshow/Dome.jpg" alt="Slide 1">
+
+        <div class="slideshow-container">
+            <img src="assets/img/slideshow/gold.jpg">
+            <img src="assets/img/slideshow/pantheon.jpg">
+            <img src="assets/img/slideshow/peter-basilica.jpg">
+            <img src="assets/img/slideshow/placeholder.jpg">
+            <img src="assets/img/slideshow/titus.jpg">
         </div>
-        <div class="slide fade">
-            <img src="assets/img/slideshow/gold.jpg" alt="Slide 2">
-        </div>
-        <div class="slide fade">
-            <img src="assets/img/slideshow/pantheon.jpg" alt="Slide 3">
-        </div>
-        <div class="slide fade">
-            <img src="assets/img/slideshow/peter-basilica.jpg" alt="Slide 4">
-        </div>
-        <div class="slide fade">
-            <img src="assets/img/slideshow/placeholder.jpg" alt="Slide 5">
-        </div>
-        <div class="slide fade">
-            <img src="assets/img/slideshow/titus.jpg" alt="Slide 6">
-        </div>
-        <div class="slide fade">
-            <img src="assets/img/slideshow/vena.jpg" alt="Slide 7">
-        </div>
-    </div>
+        
 
 
     <script src="script.js"></script>
 </body>
--->
+
         <!-- Services-->
         <section class="page-section" id="services">
             <div class="container">

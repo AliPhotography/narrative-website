@@ -73,16 +73,28 @@ let slideIndex = 0;
 showSlides();
 
 function showSlides() {
-    let slides = document.getElementsByClassName("slide");
-    for (let i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
-    }
-    slideIndex++;
-    if (slideIndex > slides.length) {
-        slideIndex = 1;
-    }
-    slides[slideIndex - 1].style.display = "block";
-    setTimeout(showSlides, 2000); // Change slide every 2 seconds
+    let slides = document.querySelectorAll('.slide');
+
+    setInterval(() => {
+        slideIndex++;
+
+        if (slideIndex >= slides.length) {
+            slideIndex = 0;
+        }
+
+        slides.forEach(slide => {
+            slide.style.transition = 'transform 1s ease-in-out';
+            slide.style.transform = `translateX(${-slideIndex * 100}%)`;
+        });
+    }, 2000); 
 }
+
+
+
+
+
+
+
+
 
 
