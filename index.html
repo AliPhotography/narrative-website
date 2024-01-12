@@ -13,101 +13,90 @@
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,300;1,400;1,700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
     </head>
 <body id="page-top">
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-            <div class="container">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    Menu
-                    <i class="fas fa-bars ms-1"></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
-                        <li class="nav-item"><a class="nav-link active " href="index.html">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="eatery.html">Eatery</a></li>
-                        <li class="nav-item"><a class="nav-link" href="visit.html">Visit</a></li>
-                        <li class="nav-item"><a class="nav-link" href="culture.html">Arts & Events</a></li>
-                    </ul>
-                </div>
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+                    <li class="nav-item"><a class="nav-link active " href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="eatery.html">Eatery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="visit.html">Visit</a></li>
+                    <li class="nav-item"><a class="nav-link" href="culture.html">Events</a></li>
+                </ul>
             </div>
-        </nav>
-        <style>
-            header.masthead {
-            padding-top: 10.5rem;
-            padding-bottom: 6rem;
-            text-align: center;
-            color: #fff;
-            background-image: url("assets/img/backgrounds/homev2.jpg");
-            background-repeat: no-repeat;
-            background-attachment: scroll;
-            background-position: center center;
-            background-size: cover;
-            height: 727px;
-            }
-        </style>
-        <!-- Masthead-->
-        <header class="masthead">
-            <div class="">
-                <br>
-                
-                <div class="masthead-subheading text-uppercase">Welcome to <br><div class="masthead-heading text-uppercase">Rome</div></div>
+        </div>
+    </nav>
+<style>
+    header.masthead
+    {
+        padding-top: 10.5rem;
+        padding-bottom: 6rem;
+        text-align: center;
+        color: #fff;
+        background-image: url("assets/img/backgrounds/homev2.jpg");
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-position: center center;
+        background-size: cover;
+        height: 727px;
+    }
+    .container-section 
+    {
+        display: flex;
+    }
 
-            </div>
-        </header>
-        <!DOCTYPE html>
-        <html lang="en">
-        <head>
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>Map and Video Example</title>
-            <style>
-                
-                body {
-                    box-sizing: border-box;
-                    font-family: Arial, sans-serif;
-                }
+    .box 
+    {
+        flex: 1; /* This makes both boxes take equal width */
+        padding: 20px;
         
-                h2 {
-                    text-align: center;
-                }
-        
-                .container {
-                    display: flex;
-                    justify-content: space-around;
-                    padding-right: 99px;
-                    flex-wrap: wrap;
-                    
-                }
-        
-                .map-container,
-                .video-container {
-                    flex: 1;
-                    max-width: 400px;
-                    margin: 100px;
-                }
-        
-                .map-container iframe,
-                .video-container iframe {
-                    width: 600px;
-                    height: 500px;
-                    border: 0;
-                }
-            </style>
-        </head>
-        <body>       
-            <div class="container">
-                <div class="map-container">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d190028.3558879646!2d12.370843215791597!3d41.910208300954054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f6196f9928ebb%3A0xb90f770693656e38!2sRome%2C%20Metropolitan%20City%20of%20Rome%20Capital%2C%20Italy!5e0!3m2!1sen!2suk!4v1699963346679!5m2!1sen!2suk" width="370" height="755" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
-        
-                <div class="video-container">
-                    <iframe src="https://www.youtube.com/embed/5DcA4BePBdA" frameborder="0" allowfullscreen></iframe>
+        margin: 10px;
+    }
+</style>
+    <!-- Masthead-->
+    <header class="masthead">
+        <div class="">
+            <br> 
+            <div class="masthead-subheading text-uppercase">Welcome to <br><div class="masthead-heading text-uppercase">Rome</div>
+        </div>
+    </header>
+<body>
+    <section class="page-section" id="food">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="modal-body">
+                        <h4>Introduction</h4>
+                        <p>This is a Tour guide of the city of Rome in Italy. You will be able to find all the key informations about your visit in Rome and what you can do there along with understanding it's rich history.</p>
+                    <br>
+                    <p>There is a video to explain the activities you can do in Rome.</p>
+                    <br>
+                    <p>A map has also been provided to know Rome's location in the world.</p>
+                    </div>
                 </div>
             </div>
+            </section>  
+            <div class="container-section bg-#c5c6d0">
+                <div class="box">
+                    <h1>Map of Rome</h1>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d190028.3558879646!2d12.370843215791597!3d41.910208300954054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f6196f9928ebb%3A0xb90f770693656e38!2sRome%2C%20Metropolitan%20City%20of%20Rome%20Capital%2C%20Italy!5e0!3m2!1sen!2suk!4v1699963346679!5m2!1sen!2suk" width="670" height="555" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+    
+                <div class="box"> 
+                    <h1>Video on Rome</h1>
+                    <iframe src="https://www.youtube.com/embed/5DcA4BePBdA" width="670" height="555" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>            
         </body>
         </html>
         
