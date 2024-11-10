@@ -600,8 +600,11 @@ progress {
 }
 
 .img-fluid {
-  max-width: 100%;
+  width: 100%;
   height: auto;
+  object-fit: cover; /* Ensures the image fills the circle without stretching */
+  aspect-ratio: 1; /* Forces a 1:1 aspect ratio, making the image square */
+  border-radius: 50%; /* Rounds the image to a circle */
 }
 
 .img-thumbnail {
@@ -11342,7 +11345,7 @@ p {
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: #212529;
+  background-color: #0365d0;
 }
 #mainNav .navbar-toggler {
   padding: 0.75rem;
@@ -11368,7 +11371,7 @@ p {
   letter-spacing: 0.0625em;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #00f3ff;
+  color: #99EAEC;
 }
 
 @media (min-width: 992px) {
@@ -11390,7 +11393,7 @@ p {
   #mainNav.navbar-shrink {
     padding-top: 1rem;
     padding-bottom: 1rem;
-    background-color: #212529;
+    background-color: #05577B;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
@@ -11446,7 +11449,7 @@ header.masthead .masthead-heading {
     font-size: 4.5rem;
     font-weight: 700;
     line-height: 4.5rem;
-    margin-bottom: 4rem;
+    margin-bottom: 0rem;
   }
 }
 #food .food-item {
@@ -11863,4 +11866,3 @@ section#contact form#contactForm :-ms-input-placeholder {
 .fade-in.visible {
   opacity: 1;
 }
-
